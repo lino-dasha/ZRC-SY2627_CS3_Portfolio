@@ -1,0 +1,8 @@
+1. What do all the methods have in common?
+They all do different things but it depends on which object uses them. For example, a car and a boat both have move(), but the car drives on the road while the boat sails on water. So, within each activity, the method name stays the same, but its behavior changes.
+
+2. How does this activity show polymorphism in a gaming context?
+It shows polymorphism because the same command works differently for each character or item. For example, calling special_move() makes the warrior swing a sword, but it makes the mage cast a spell. We can use the same function for both, even though their actions are different.
+
+3. Can you think of other examples where the same action behaves differently depending on the character or item?
+One example I can think of is a speak() method. One person could speak French, another could speak Arabic, and another could speak Filipino. They all use the same command, but each person speaks in a different language.

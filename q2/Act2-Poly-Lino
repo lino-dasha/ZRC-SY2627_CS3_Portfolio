@@ -1,0 +1,10 @@
+1a. What is duck typing?
+Duck typing means that an object can be used based on the methods or behavior it provides, rather than requiring it to belong to a particular class. Objects from unrelated classes can work with the same code as long as they provide the methods that code calls.
+
+1b. What did the Car class need to have?
+The Car class needed to provide the same methods called by the loop on the Dog and Cat objects. It did not need to inherit from Animal; it only needed to support the operations the loop expected.
+
+2.) Code is located in another file.
+
+3. How does the code demonstrate polymorphism?
+The function start_trip(vehicle) calls the same method, move(), on three different types of objects. Each object provides its own behavior: the car drives, the boat sails, and the drone flies. The classes do not share a parent class, so this demonstrates polymorphism through duck typing.
